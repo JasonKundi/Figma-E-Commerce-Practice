@@ -1,3 +1,7 @@
+.app {
+  
+}
+
 .page {
   height: 100vh;
   overflow-y: auto;
@@ -90,9 +94,10 @@
 .card-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 100px;
   padding-left: 215px;
+  padding-right: 50px;
 }
 .card-left {
   display: flex;

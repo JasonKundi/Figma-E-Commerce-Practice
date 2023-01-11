@@ -3,7 +3,9 @@ import HeadingPage from "./pages/HeadingPage.jsx";
 
 function App() {
   return (
-    <HeadingPage/>
+    <div className="app">
+      <HeadingPage/>
+    </div>
   )
 }
 
