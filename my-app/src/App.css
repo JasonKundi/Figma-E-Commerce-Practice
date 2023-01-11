@@ -3,15 +3,15 @@
   width: 1170px;
   height: 357px;
   padding-top: 50px;
+  padding-left: 215px;
+  padding-right: 215px;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  height: 400px;
 }
 
 .header-left {
   display: flex;
   flex-direction: column;
-  padding-left: 150px;
   height: 300px;
 }
 
@@ -24,6 +24,8 @@
 .heading {
   font-family: "DM Sans";
   font-style: normal;
+  width: 702px;
+  height: 153px;
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
@@ -41,6 +43,8 @@
 
   font-family: "DM Sans";
   font-style: normal;
+  width: 426px;
+  height: 52px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -54,6 +58,9 @@
 .discount {
   font-family: "DM Sans";
   font-style: normal;
+  width: 280px;
+  padding: 16px;
+  margin-top: 30px;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -65,10 +72,13 @@
   text-align: center;
 
   background: #25dac5;
+  color: #FFFFFF;
+  border: #25dac5;
   border-radius: 100px;
 }
 
 .header-img {
   width: 370px;
   height: 300px;
+  border-radius: 10px;
 }
