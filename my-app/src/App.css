@@ -1,30 +1,27 @@
-.App {
-  /* ecommerce_1 */
-
-  position: relative;
-  width: 1600px;
-  height: 874px;
-
-  background: #ffffff;
-}
-
-.Header {
-  position: absolute;
+.header-container {
+  display: grid;
   width: 1170px;
   height: 357px;
-  left: 215px;
-  top: 100px;
+  padding-top: 50px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 400px;
 }
 
-.Heading {
-  position: absolute;
-  width: 702px;
-  height: 153px;
-  left: 215px;
-  top: 123px;
+.header-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  height: 300px;
+}
 
-  /* Heading / H2 Header */
+.header-right {
+  display: flex;
+  justify-content: center;
+  padding-right: 90px;
+}
 
+.heading {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -39,13 +36,7 @@
   color: #1e0e62;
 }
 
-.Sub-Heading {
-  position: absolute;
-  width: 570px;
-  height: 52px;
-  left: 215px;
-  top: 310px;
-
+.sub-heading {
   /* Text / Paragraph */
 
   font-family: "DM Sans";
@@ -60,33 +51,7 @@
   color: rgba(21, 20, 57, 0.4);
 }
 
-.Header-img {
-  position: absolute;
-  width: 370px;
-  height: 300px;
-  left: 1015px;
-  top: 100px;
-  border-radius: 10px;
-}
-
-.Discount {
-  display: flex;
-
-  /* Action / Primary */
-
-  background: #25dac5;
-  border-radius: 100px;
-}
-
-.Sign-Up {
-  position: absolute;
-  width: 198px;
-  height: 26px;
-  left: calc(50% - 198px / 2);
-  top: calc(50% - 26px / 2);
-
-  /* Buttons / Big */
-
+.discount {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
@@ -95,10 +60,15 @@
   /* identical to box height, or 130% */
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 
-  /* Colors / White */
+  background: #25dac5;
+  border-radius: 100px;
+}
 
-  color: #ffffff;
+.header-img {
+  width: 370px;
+  height: 300px;
 }
